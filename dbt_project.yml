@@ -32,4 +32,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   jaffle_shop_shannon_test:
     # Config indicated by + and applies to all files under models/example/
+      +tags: all_models
       +materialized: table

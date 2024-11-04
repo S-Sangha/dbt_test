@@ -1,4 +1,7 @@
 selectors:
+  - name: all_models
+    definition:
+      tag: all_models
   - name: root_project_only
     description: >
         Only resources from the root project.
